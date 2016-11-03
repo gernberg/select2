@@ -1059,7 +1059,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.container.removeClass("select2-dropdown-open").removeClass("select2-container-active");
             this.results.empty();
             this.clearSearch();
-
+	    $(this).focus();
             this.opts.element.trigger($.Event("close"));
         },
 
